@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="changingText"></h1>
+  </header>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="content">
+      <div class="card">
+        <h3>Windows & Linux Installation</h3>
+        <p>Struggling with installing or upgrading your operating system? I provide seamless installations for both Windows and Linux. I ensure your system is set up correctly and runs smoothly, giving you peace of mind.</p>
+        <a href="#contact" class="button">Contact Me</a>
+      </div>
+      <div class="card">
+        <h3>Software Download Services</h3>
+        <p>Ready to dive into the latest Softwares? I offer Various Softwares? for all your favorite titles. From installation to setup, I make sure your Software are ready to Use without any hassle.</p>
+        <a href="#contact" class="button">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="why-choose-me">
+    <h2>Why Choose Me?</h2>
+    <div class="content">
+      <div class="card">
+        <h3>Quick & Reliable</h3>
+        <p>I value your time and provide fast, reliable service to get you up and running as soon as possible.</p>
+      </div>
+      <div class="card">
+        <h3>Affordable Rates</h3>
+        <p>Enjoy high-quality services at competitive prices.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="testimonial">
+    <h3>What Our Clients Say</h3>
+    <p>"The service was fast and efficient. I couldn't be happier with how my system is running!"</p>
+  </div>
+
+  <div id="contact" class="contact-form">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mrbepngz" method="POST" id="contactForm">
+      <input type="text" name="name" id="name" placeholder="Your Name" required>
+      <input type="email" name="email" id="email" placeholder="Your Email" required>
+      <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="success-message" id="successMessage">Your message has been sent successfully!</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Services. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
